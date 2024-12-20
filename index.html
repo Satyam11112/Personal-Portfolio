@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyam's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ad3085cf19.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+
+
+        <div class="container">
+            <nav>
+                <img src="img/Black_And_White_Aesthetic_Minimalist_Modern_Simple_Typography_Coconut_Cosmetics_Logo__1_-removebg-preview.png" alt="logo"id="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+               
+            </nav>
+            <div class="header-text">
+                <p>
+                    UI/UX Designer
+                </p>
+                <h1>Hi, I'm <span>Satyam</span><br>Patel from India</h1>
+                
+            </div>
+
+        </div>
+    </div>
+    <!--------------------ABOUT-------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/Satyam.img1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hello! , I’m Satyam Patel, a passionate and aspiring Full Stack Software Developer.
+                        I have passed my 10th from JBVKICJS  Ambedkar Nagar and  
+                        completed my 12th from MAIC jalalpur Ambedkar Nagar.</p>
+                        <p>Currently i am pursuing my batchlor degree from Dr RMLAU Ayodhya in CS branch.
+                            My journey into tech began with mastering the fundamentals of HTML, 
+                            CSS, JavaScript, and Bootstrap, and I’ve been expanding my skills ever since.
+                             With a keen interest in problem-solving,I actively practice Data Structures
+                              and Algorithms to enhance my programming expertise.
+                             I’ve also explored 
+                             version control using GitHub, enabling me to collaborate effectively on projects
+                              and contribute to the tech community. My goal is to build dynamic, 
+                              user-friendly applications that make an impact.
+
+                             When I’m not coding, I enjoy exploring new technologies, 
+                             improving my communication skills, and participating in coding competitions where I’ve
+                              proudly secured first ranks.
+                             
+                             Let’s connect and create something amazing together!
+                             </p>
+         <div class="tab-titles"> 
+            <P class="tab-links active-link" onclick="opentab('skills')">Skills</P>
+            <P class="tab-links" onclick="opentab('experiance')">Experience</P>
+            <P class="tab-links" onclick="opentab('education')">Education</P>
+         </div>
+         <div class="tab-contents active-tab" id="skills">
+<ul>
+    <li><span>UI/UX</span><br>Desigining Web/App interfaces</li>
+    <li><span>Web Development</span><br>Web app development</li>
+    <li><span>App Development</span><br>Building android/ios apps</li>
+</ul>
+         </div>
+         <div class="tab-contents" id="experiance">
+            <ul>
+                <li><span>2022</span><br>Clear JeeMain Entrance Exam </li>
+                <li><span>2023</span><br> Completed 1 month summer bootcamp on Embeded System and IOT</li>
+                <li><span>2024</span><br>Completed 3 month online internship program on Web-Development</li>
+            </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br>High School from JBVKJS Ambedkar Nagar</li>
+                            <li><span>2021</span><br>Intermediate from MAIC Ambedkar Nagar </li>
+                            <li><span>2022-current</span><br>Pursuing Btech(cse) from RMLAU</li>
+                        </ul>
+                                 </div>
+     
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-------------------------------SERVICES-------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>"Web design is not just about aesthetics; it's about crafting digital 
+                        experiences that are intuitive, engaging, and accessible.
+                         My goal is to design websites that resonate with users
+                          while ensuring seamless functionality."</p>
+                          <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>"UI/UX design is more than creating visually appealing interfaces; 
+                        it's about understanding user behavior and designing
+                         experiences that feel intuitive and seamless.
+                         My passion lies in crafting
+                         designs that solve real-world problems while delighting users."</p>
+                          <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>"App design is about crafting digital experiences that are intuitive,
+                         engaging, and efficient. My goal is to create applications that simplify
+                         tasks while delivering an exceptional user experience across all devices."</p>
+                          <a href="">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!---------------------------------------PORTFOLIO--------------------------------------------->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="img/firstproject.jpg" alt="work1">
+                    <div class="layer">
+                        <h3>Tindog app</h3>
+                       <p>This app helpss you to find the other<br> dogs lover accross the world</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/secondproject.jpg" alt="work2">
+                    <div class="layer">
+                        <h3>Beautiful Hotel Website</h3>
+                        <p>through this website you will find the best hotels around you</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+               
+                <div class="work">
+                    <img src="img/thirdproject.jpg" alt="work3">
+                    <div class="layer">
+                        <h3>Dice Game</h3>
+                        <p>Roll the dice and enjou the game</p>
+                       
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+<a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!------------------------------CONTACT------------------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left"> 
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sa8yampa8el@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i>9161097720</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/satyam-patel-2a9909270/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Satyam11112/Codsoft_04"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a href="img/Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+<input type="text" name="Name" placeholder="Your name" required>
+<input type="email" name="email" placeholder="your email" required>
+<textarea name="message" rows="6" placeholder="your message" ></textarea>
+<button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+<span id="msg"> </span>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> <i class="fa-solid fa-heart"></i>copyright @Satyam.</p>
+        </div>
+    </div>
+
+<script>
+   
+   var tablinks=document.getElementsByClassName("tab-links")
+   var tabcontents=document.getElementsByClassName("tab-contents")
+
+   function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab");
+   }
+  
+</script>
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxtthhkeoVs4ksKj_VOj66lA9feQ20GrkdxVmUx_iLV2o8zX6O582ifbrDJcHMqlYM1/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+msg.innerHTML = " "
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
